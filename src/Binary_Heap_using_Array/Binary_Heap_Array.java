@@ -18,6 +18,29 @@ public class Binary_Heap_Array {
         sizeofTree = 0;                //if array index starts from 1.. if want to start from 0 then initilise it with -1.
     }
 
+    public int sizofArray(){
+        return arr.length;
+    }
+
+
+    public int SizeofTree(){
+        return sizeofTree;
+    }
+
+    public void deleteHeapTree(){
+        arr = null;
+        System.out.println("Heap deleted...");
+    }
+
+    public boolean isHeapEmpty(){
+        if ( sizeofTree == 0 ) return true;
+        else return false;
+    }
+
+    public void PeekinHeap(){
+        if (isHeapEmpty()) System.out.println("Heap is empty...");
+        else System.out.println(arr[1]);
+    }
 
     public void insert(int value) {
         arr[sizeofTree + 1] = value;
@@ -39,7 +62,7 @@ public class Binary_Heap_Array {
     }
 
     public void display_array(){
-        for(int i = 1 ; i <= sizeofTree ; i ++ ){
+        for( int i = 1 ; i <= sizeofTree ; i ++ ){
             System.out.println("At index  :  " + i + " , value is  :  " + arr[i]);
         }
     }
