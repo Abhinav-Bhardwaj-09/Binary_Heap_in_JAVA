@@ -38,7 +38,7 @@ public class Binary_Heap_Array {
     }
 
     public void PeekinHeap(){
-        if (isHeapEmpty()) System.out.println("Heap is empty...");
+        if (isHeapEmpty()) System.out.println(" Heap is empty...");
         else System.out.println(arr[1]);
     }
 
