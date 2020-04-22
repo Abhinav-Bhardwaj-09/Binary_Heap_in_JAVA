@@ -15,5 +15,6 @@ public class Binary_Heap_Main {
             obj.insert(6);
             obj.insert(18);
             obj.insert(8);
+            obj.display_array();
         }
     }

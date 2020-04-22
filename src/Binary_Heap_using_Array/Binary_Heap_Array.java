@@ -38,5 +38,10 @@ public class Binary_Heap_Array {
         heapify(parent);
     }
 
+    public void display_array(){
+        for(int i = 1 ; i <= sizeofTree ; i ++ ){
+            System.out.println(arr[i]+" at index  :  " + i);
+        }
+    }
 
 }
