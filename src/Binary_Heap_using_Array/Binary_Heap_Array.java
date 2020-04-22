@@ -40,7 +40,7 @@ public class Binary_Heap_Array {
 
     public void display_array(){
         for(int i = 1 ; i <= sizeofTree ; i ++ ){
-            System.out.println(arr[i]+" at index  :  " + i);
+            System.out.println("At index  :  " + i + " , value is  :  " + arr[i]);
         }
     }
 
