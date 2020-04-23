@@ -16,5 +16,16 @@ public class Binary_Heap_Main {
             B_H_A.insert(18);
             B_H_A.insert(8);
             B_H_A.display_array();
+            System.out.println(B_H_A.SizeofTree());
+            System.out.println();
+            System.out.println(B_H_A.extractValue());
+            System.out.println(B_H_A.extractValue());
+            System.out.println(B_H_A.extractValue());
+            System.out.println(B_H_A.extractValue());
+            System.out.println(B_H_A.extractValue());
+            System.out.println();
+            System.out.println(B_H_A.SizeofTree());
+            System.out.println();
+            B_H_A.display_array();
         }
     }
