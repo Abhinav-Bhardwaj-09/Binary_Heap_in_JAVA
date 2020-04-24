@@ -35,7 +35,7 @@ public class Binary_Heap_Main {
                 System.out.print("Enter your choice :  ");
                 option = obj.nextInt();
                 if ( option == 1 ) B_H_A.display_array();
-                else if ( option == 2 ) System.out.println(B_H_A.extractValue());
+                else if ( option == 2 ) System.out.println("Extracted value  :  " + B_H_A.extractValue());
                 else if ( option == 3 ) System.out.println("Currently there are " + B_H_A.sizeofTree + "elements in the tree.");
                 else if ( option == 4 ) Flag = false;
                 else System.out.println(" Warning !!! Please select a valid option... ");
