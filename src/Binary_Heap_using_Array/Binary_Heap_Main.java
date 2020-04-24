@@ -12,7 +12,6 @@ import java.util.Scanner;
 public class Binary_Heap_Main {
         public static void main(String[] args) {
             Scanner obj = new Scanner(System.in);
-            System.out.println();
             System.out.print("Enter the no. of elements you want to insert in tree :  ");
             int size = obj.nextInt();
             System.out.println();
