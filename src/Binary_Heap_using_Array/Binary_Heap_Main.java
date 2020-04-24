@@ -43,7 +43,7 @@ public class Binary_Heap_Main {
                 if ( Flag == true) {
                     System.out.println();
                     System.out.println();
-                }
+                } else System.out.println("Thanks for using...");
             }
         }
     }
