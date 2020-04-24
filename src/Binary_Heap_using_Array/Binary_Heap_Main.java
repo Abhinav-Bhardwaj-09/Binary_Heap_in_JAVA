@@ -39,6 +39,11 @@ public class Binary_Heap_Main {
                 else if ( option == 3 ) System.out.println("Currently there are " + B_H_A.sizeofTree + "elements in the tree.");
                 else if ( option == 4 ) Flag = false;
                 else System.out.println(" Warning !!! Please select a valid option... ");
+
+                if ( Flag == true) {
+                    System.out.println();
+                    System.out.println();
+                }
             }
         }
     }
