@@ -12,9 +12,9 @@ import java.util.Scanner;
 public class Binary_Heap_Main {
         public static void main(String[] args) {
             Scanner obj = new Scanner(System.in);
+            System.out.println();
             System.out.print("Enter the no. of elements you want to insert in tree :  ");
             int size = obj.nextInt();
-            System.out.println();
             Binary_Heap_Array B_H_A = new Binary_Heap_Array(size);
             int element , option ;
             for ( int i = 0 ; i < size ; i++ ){
