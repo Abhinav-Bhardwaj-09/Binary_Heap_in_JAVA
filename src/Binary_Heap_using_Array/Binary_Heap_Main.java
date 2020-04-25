@@ -1,5 +1,4 @@
 package Binary_Heap_using_Array;
-
 import java.util.Scanner;
 
 /**
@@ -31,7 +30,7 @@ public class Binary_Heap_Main {
             while (Flag) {
                 System.out.println("Press 1 : To display the elements of the tree.");
                 System.out.println("Press 2 : To extract value from the tree.");
-                System.out.println("Press 3 : To find the no. of elements in the tree.");
+                System.out.println("Press 3 : To find the no. of elements currently present in the tree.");
                 System.out.println("Press 4 : To exit.");
                 System.out.println();
                 System.out.print("Enter your choice :  ");
